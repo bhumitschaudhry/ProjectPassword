@@ -1,4 +1,4 @@
-# Password Generator
+# ProjectPassword
 
 A simple, elegant password generator application built with HTML, CSS, and JavaScript.
 
