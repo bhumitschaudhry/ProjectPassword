@@ -4,8 +4,12 @@
     box-sizing: border-box;
 }
 
+input, button, select, textarea {
+    font-family: inherit;
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, 'Courier New', Courier, monospace;
     background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
     min-height: 100vh;
     display: flex;
@@ -47,7 +51,7 @@ h1 {
     padding: 15px;
     font-size: 1.1rem;
     color: #e0e0e0;
-    font-family: 'Courier New', monospace;
+    font-family: inherit;
     transition: border-color 0.3s;
 }
 
